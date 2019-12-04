@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0%;
+}
+.bg {
+    background: url(batman-angry.jpg) no-repeat;
+    width: auto;
+    height: 100vh;
+    background-size: 200%;
+    background-position: center;
+    background-size: cover;
+}
+
+.form-container {
+    position: absolute;
+    top: 25vh;
+    left: -25px;
+    background: rgb(31, 30, 30);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #333;
+}
+label{
+    color: #fff;
+}
+@media only screen and (max-width: 678px){
+    .bg{
+        background-size: 300%;
+    }
+}
